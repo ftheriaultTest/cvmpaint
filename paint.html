@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Paint</title>
+	<script type="text/javascript" src="js/javascript.js"></script>
+	<link href="css/global.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="container">
+		<div class="taskBar">
+			<div class="taskItem size" onclick="setSize('small')">Petit</div>
+			<div class="taskItem size" onclick="setSize('medium')">Moyen</div>
+			<div class="taskItem size" onclick="setSize('large')">Large</div>
+			<div class="taskItem size" onclick="setSize('x-large')">X-Large</div>
+			<div class="taskItem colorBlack" onclick="setColor('black')"></div>
+			<div class="taskItem colorRed" onclick="setColor('red')"></div>
+			<div class="taskItem colorGreen" onclick="setColor('green')"></div>
+			<div class="taskItem colorWhite" onclick="setColor('white')"></div>
+			<div class="taskItem colorBlue" onclick="setColor('blue')"></div>
+			<div class="taskItem colorYellow" onclick="setColor('yellow')"></div>
+			<div class="taskItem colorOrange" onclick="setColor('orange')"></div>
+			<div class="taskItem colorPurple" onclick="setColor('purple')"></div>
+			<div class="currentStyle" id="currentStyle"></div>
+			<div class="clear"></div>
+		</div>
+		<div id="area" onclick="clicked(event)" onmousedown="startDrag()" onmouseup="stopDrag()" onmousemove="move(event)">
+		
+		</div>
+	</div>
+</body>
+</html>

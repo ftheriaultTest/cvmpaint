@@ -1,0 +1,92 @@
+* {
+	margin:0px;
+	padding:0px;	
+}
+
+html, body {
+	font-size:11px;	
+	font-family:Verdana;
+}
+
+.clear {
+	clear:both;	
+}
+
+#container {
+	margin:0px;	
+	height:550px;
+	width:950px;
+	border:2px solid blue;
+	border-top:0px solid;
+	overflow:hidden;
+}
+
+#area {
+	overflow:hidden;	
+	height:100%;
+}
+
+.taskBar {
+	border-bottom:1px solid black;	
+	padding-left:5px;
+	z-index:2;
+	position:relative;
+	background-color:white;
+}
+
+.currentStyle {
+	float:left;
+	width:200px;
+	font-weight:bold;	
+}
+
+.taskItem {
+	float:left;
+	width:40px;
+	height:40px;
+	z-index:2;	
+	position:relative;
+	line-height:40px;
+	cursor:pointer;
+}
+
+.size {
+	width:70px;	
+}
+
+.colorBlack {
+	background-color:black;	
+}
+
+.colorRed {
+	background-color:red;	
+}
+
+.colorGreen {
+	background-color:green;	
+}
+
+.colorWhite {
+	background-color:white;	
+}
+
+.colorBlue {
+	background-color:blue;	
+}
+
+.colorYellow {
+	background-color:yellow;	
+}
+
+.colorOrange {
+	background-color:orange;	
+}
+
+.colorPurple {
+	background-color:purple;	
+}
+
+.createdBlock {
+	z-index:1;
+	position:absolute;	
+}
